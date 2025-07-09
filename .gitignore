@@ -1,0 +1,41 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
+
+# Tailwind
+*.css.map
+
+# Package lock files (optional, depending on your team workflow)
+package-lock.json
+yarn.lock
+
+# VS Code settings (optional, for personal settings not shared with the team)
+.vscode/
+
+# IDE-specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# MacOS-specific files
+Thumbs.db
+
+*storybook.log
