@@ -16,7 +16,15 @@
   "scripts": {
     "start": "node index.js",
     "build": "tsc && shx chmod +x dist/*.js",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcp-s/secure-mcp-gateway.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "author": "Shalev Shalit",
   "license": "ISC",
