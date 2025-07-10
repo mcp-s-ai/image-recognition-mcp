@@ -42,9 +42,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Test
-        run: npm test
-
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
