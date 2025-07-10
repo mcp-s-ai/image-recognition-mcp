@@ -21,10 +21,6 @@ yarn-error.log*
 # Tailwind
 *.css.map
 
-# Package lock files (optional, depending on your team workflow)
-package-lock.json
-yarn.lock
-
 # VS Code settings (optional, for personal settings not shared with the team)
 .vscode/
 
