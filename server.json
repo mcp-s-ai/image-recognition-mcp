@@ -1,10 +1,10 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-  "name": "io.github.mcp-s-ai/image-recongnition-mcp",
+  "name": "io.github.shalevshalit/image-recognition-mcp",
   "description": "MCP server for AI-powered image recognition and description using OpenAI vision models.",
   "status": "active",
   "repository": {
-    "url": "https://github.com/mcp-s-ai/image-recongnition-mcp",
+    "url": "https://github.com/mcp-s-ai/image-recognition-mcp",
     "source": "github"
   },
   "version": "1.0.0",
@@ -12,7 +12,7 @@
     {
       "registry_type": "npm",
       "registry_base_url": "https://registry.npmjs.org",
-      "identifier": "@mcp-s/image-recongnition-mcp",
+      "identifier": "image-recognition-mcp",
       "version": "1.0.0",
       "transport": {
         "type": "stdio"

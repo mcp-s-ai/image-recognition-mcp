@@ -34,10 +34,10 @@ jobs:
       - name: Test npx functionality
         run: |
           # Make binary executable
-          chmod +x bin/image-recongnition-mcp.js
+          chmod +x bin/image-recognition-mcp.js
 
           # Test the binary can be executed
-          timeout 10s node bin/image-recongnition-mcp.js --help || true
+          timeout 10s node bin/image-recognition-mcp.js --help || true
 
           # Test npm pack (simulates publishing without actually publishing)
           npm pack
@@ -47,4 +47,4 @@ jobs:
           npm install -g "$PACK_FILE"
 
           # Test npx command (with timeout to avoid hanging)
-          timeout 10s npx @mcp-s/image-recongnition-mcp --help || echo "npx test completed"
+          timeout 10s npx @mcp-s/image-recognition-mcp --help || echo "npx test completed"

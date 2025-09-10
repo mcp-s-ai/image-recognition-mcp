@@ -1,6 +1,7 @@
 {
-  "name": "@mcp-s/image-recongnition-mcp",
-  "version": "1.0.3",
+  "name": "@mcp-s/image-recognition-mcp",
+  "version": "1.0.4",
+  "mcpName": "io.github.shalevshalit/image-recognition-mcp",
   "description": "MCP server for AI-powered image recognition and description using OpenAI vision models.",
   "type": "module",
   "files": [
@@ -11,7 +12,7 @@
   ],
   "main": "dist/index.js",
   "bin": {
-    "@mcp-s/image-recongnition-mcp": "dist/index.js"
+    "@mcp-s/image-recognition-mcp": "dist/index.js"
   },
   "scripts": {
     "start": "node index.js",
@@ -21,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mcp-s/secure-mcp-gateway.git"
+    "url": "git+https://github.com/mcp-ai/image-recognition-mcp.git"
   },
   "publishConfig": {
     "access": "public"

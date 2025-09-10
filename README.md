@@ -31,7 +31,7 @@ To use this server with an MCP client, add the following configuration:
   "mcpServers": {
     "image-recognition": {
       "command": "npx",
-      "args": ["-y", "@mcp-s/image-recongnition-mcp"],
+      "args": ["-y", "@mcp-s/image-recognition-mcp"],
       "env": {
         "OPENAI_API_KEY": "your-actual-openai-api-key-here"
       }
@@ -90,7 +90,7 @@ This MCP server can be integrated with various AI assistants that support the MC
 ### Project Structure
 
 ```
-image-recongnition-mcp/
+image-recognition-mcp/
 ├── src/
 │   └── index.ts          # Main server implementation
 ├── dist/                 # Compiled JavaScript output
