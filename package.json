@@ -1,6 +1,6 @@
 {
   "name": "@mcp-s/image-recognition-mcp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "mcpName": "io.github.shalevshalit/image-recognition-mcp",
   "description": "MCP server for AI-powered image recognition and description using OpenAI vision models.",
   "type": "module",
